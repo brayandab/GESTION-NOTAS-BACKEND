@@ -51,9 +51,22 @@ Nota
       • Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
 
 
-## Documentacion con OpenApi y Pruebas de los Enpoint.
-•  Materia
+## Documentacion con OpenApi.
+
+•  Enpoints Materias:
+
 <img width="1333" height="518" alt="image" src="https://github.com/user-attachments/assets/cc4a8fcc-e9ce-4ac1-820e-4f2f400fed23" />
+
+•  Enpoints Alumnos:
+
+<img width="1323" height="314" alt="image" src="https://github.com/user-attachments/assets/67e59811-02f6-4466-9cac-d8c85ce2373e" />
+
+•  Enpoints Notas:
+
+<img width="1316" height="206" alt="image" src="https://github.com/user-attachments/assets/4d5e7f3a-74e5-4d4d-ac1f-d3158390afc9" />
+
+
+## Pruebas de los Enpoint.
 
 
 
