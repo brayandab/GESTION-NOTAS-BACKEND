@@ -18,7 +18,7 @@ Para la base de datos de acuerdo al análisis que se hizo del requrimiento se re
 <img width="598" height="386" alt="image" src="https://github.com/user-attachments/assets/5ab75a0c-f768-4be0-8d4a-b676ee7d7beb" />
 
 
-## El proyecto proporcia los siguien Enpoind:
+## El proyecto proporciona los siguientes Enpoind:
 Alumno
 
       •	Crear una materia: Alta de nuevas asignaturas en el catálogo.
@@ -51,22 +51,22 @@ Nota
       • Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
 
 
-## Documentacion con OpenApi.
+## Documentación con OpenApi.
 
-•  Enpoints Materias:
+•  Endpoints Materias:
 
 <img width="1333" height="518" alt="image" src="https://github.com/user-attachments/assets/cc4a8fcc-e9ce-4ac1-820e-4f2f400fed23" />
 
-•  Enpoints Alumnos:
+•  Endpoints Alumnos:
 
 <img width="1323" height="314" alt="image" src="https://github.com/user-attachments/assets/67e59811-02f6-4466-9cac-d8c85ce2373e" />
 
-•  Enpoints Notas:
+•  Endpoints Notas:
 
 <img width="1316" height="206" alt="image" src="https://github.com/user-attachments/assets/4d5e7f3a-74e5-4d4d-ac1f-d3158390afc9" />
 
 
-## pruebas Enpoints:
+## pruebas Endpoints:
 
 1. **Crear una materia: Alta de nuevas asignaturas en el catálogo.**
    
@@ -84,7 +84,7 @@ Nota
    
    URL: http://localhost:8080/materias
    
-   Metodo: GET
+   Método: GET
      
 
 <img width="1274" height="571" alt="image" src="https://github.com/user-attachments/assets/01648814-8e7d-46fb-bc3d-0cb49aa6ac2b" />
@@ -165,5 +165,5 @@ http://localhost:8080/swagger-ui/index.html
    npm run dev
 
 
-Para Acceder a la Aplicacion ir a la siugiente URL: http://localhost:5173/materias
+Para Acceder a la Aplicación ir a la siguiente URL: http://localhost:5173/materias
  
