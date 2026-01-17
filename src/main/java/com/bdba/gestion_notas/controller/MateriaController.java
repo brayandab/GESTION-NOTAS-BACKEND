@@ -3,6 +3,7 @@ package com.bdba.gestion_notas.controller;
 import com.bdba.gestion_notas.exception.MateriaNotFoundException;
 import com.bdba.gestion_notas.model.Alumno;
 import com.bdba.gestion_notas.model.Materia;
+import com.bdba.gestion_notas.model.enums.ApiStatus;
 import com.bdba.gestion_notas.model.request.CrearAlumnoRequest;
 import com.bdba.gestion_notas.model.request.CrearMateriaRequest;
 import com.bdba.gestion_notas.model.response.ApiResponse;
@@ -33,8 +34,8 @@ public class MateriaController {
 
         Page<CrearMateriaResponse> materia = materiaService.listarMatarias(page, size);
         return ResponseEntity.ok( new ApiResponse<>(
-                200,
-                "Materias consultadas satisfactoriamente.",
+                ApiStatus.OK.getCode(),
+                ApiStatus.OK.getMessage(),
                 materia
         ));
     }
@@ -45,8 +46,8 @@ public class MateriaController {
         CrearMateriaResponse materia = materiaService.crearMataria(request);
         return ResponseEntity.status(201).body(
                 new ApiResponse<>(
-                        201,
-                        "Alumno created successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         materia
                 )
         );
@@ -61,8 +62,8 @@ public class MateriaController {
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
-                        200,
-                        "Materia updated successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         materia
                 )
         );
@@ -73,8 +74,8 @@ public class MateriaController {
         CrearMateriaResponse materia = materiaService.consultarMateria(id);
         return ResponseEntity.ok(
                 new ApiResponse<>(
-                        200,
-                        "Alumno retrieved successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         materia
                 )
         );
@@ -87,8 +88,8 @@ public class MateriaController {
 
             return ResponseEntity.ok(
                     new ApiResponse<>(
-                            200,
-                            "Materia con id " +  " eliminada satisfactoriamente.",
+                            ApiStatus.OK.getCode(),
+                            ApiStatus.OK.getMessage(),
                             null
                     )
             );
@@ -97,8 +98,8 @@ public class MateriaController {
 
             return ResponseEntity.status(404).body(
                     new ApiResponse<>(
-                            404,
-                            "Materia not found. Unable to delete",
+                            ApiStatus.NOT_FOUND.getCode(),
+                            ApiStatus.NOT_FOUND.getMessage(),
                             null
                     )
             );

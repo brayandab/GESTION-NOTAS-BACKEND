@@ -2,6 +2,7 @@ package com.bdba.gestion_notas.controller;
 
 import com.bdba.gestion_notas.exception.AlumnoNotFoundException;
 import com.bdba.gestion_notas.model.Alumno;
+import com.bdba.gestion_notas.model.enums.ApiStatus;
 import com.bdba.gestion_notas.model.request.CrearAlumnoRequest;
 import com.bdba.gestion_notas.model.response.ApiResponse;
 import com.bdba.gestion_notas.model.response.CrearAlumnoResponse;
@@ -31,8 +32,8 @@ public class AlumnoController {
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
-                        200,
-                        "Alumnos retrieved successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         alumnos
                 )
         );
@@ -46,8 +47,8 @@ public class AlumnoController {
 
         return ResponseEntity.status(201).body(
                 new ApiResponse<>(
-                        201,
-                        "Alumno created successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         alumno
                 )
         );
@@ -60,8 +61,8 @@ public class AlumnoController {
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
-                        200,
-                        "Alumno retrieved successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         alumno
                 )
         );
@@ -76,8 +77,8 @@ public class AlumnoController {
 
         return ResponseEntity.ok(
                 new ApiResponse<>(
-                        200,
-                        "Alumno updated successfully",
+                        ApiStatus.OK.getCode(),
+                        ApiStatus.OK.getMessage(),
                         alumno
                 )
         );
@@ -91,8 +92,8 @@ public class AlumnoController {
 
             return ResponseEntity.ok(
                     new ApiResponse<>(
-                            200,
-                            "Alumno with id " +  " deleted successfully",
+                            ApiStatus.OK.getCode(),
+                            ApiStatus.OK.getMessage(),
                             null
                     )
             );
@@ -101,12 +102,11 @@ public class AlumnoController {
 
             return ResponseEntity.status(404).body(
                     new ApiResponse<>(
-                            404,
-                            "Alumno not found. Unable to delete",
+                            ApiStatus.NOT_FOUND.getCode(),
+                            ApiStatus.OK.getMessage(),
                             null
                     )
             );
         }
     }
 }
-
