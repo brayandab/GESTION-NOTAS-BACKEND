@@ -204,11 +204,19 @@ Para ejecutar la aplicación, configura las siguientes variables de entorno:
 | `DB_DRIVER` | Driver JDBC de PostgreSQL | org.postgresql.Driver | Sí |
 
 
-## Instrucciones de Ejecución (Máximo 10 comandos)
+## Instrucciones para Desplegar en Docker (Backend y Base de Datos Postgres).
 
-### Opción 1: Usando Docker Compose (Recomendado)
-
-1. **Clonar el repositorio:**
+1. **Clonar el repositorio Descritos anteriormente:**
+   
+   • Backend: https://github.com/brayandab/GESTION-NOTAS-BACKEND
+   
    ```bash
    git clone <url-del-repositorio>
    cd gestion-notas
+
+2. **Clonar el repositorio Descritos anteriormente:**
+
+
+
+
+   
