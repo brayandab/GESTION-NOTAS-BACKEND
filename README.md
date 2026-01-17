@@ -177,11 +177,7 @@ Nota
    URL: http://localhost:8080/materias/1
    Metodo: Delete
    
-   ```JSON
-   {"codigo": "05",
-    "creditos": 2,
-    "nombre": "Fisica"
-   }
+   
 
 
 
@@ -218,10 +214,26 @@ Para ejecutar la aplicación, configura las siguientes variables de entorno:
    ```bash
      docker-compose up --build
 
-
+Si se realizo correctamente las instrucciones se veran en consola lo siguiente:
 <img width="1336" height="665" alt="image" src="https://github.com/user-attachments/assets/32f90bab-5c9d-4f42-9f23-d9fc28c061c4" />
 
+Y se podrá mirar que la apliacion esta corriendo en la siguiente URL:
+
+http://localhost:8080/swagger-ui/index.html
 
 
-
+## Instrucciones para Desplegar Localmente el Frontend.
+1. **Clonar el repositorio Descritos anteriormente del frontend:**
    
+   • Frontend: https://github.com/brayandab/GESTION-NOTAS-FRONTEND
+   
+   ```bash
+   git clone https://github.com/brayandab/GESTION-NOTAS-FRONTEND
+   cd GESTION-NOTAS-FRONTEND
+
+   Luego ejecutar el siguiente comando.
+   npm run dev
+
+
+Para Acceder a la Aplicacion ir a la siugiente URL: http://localhost:5173/materias
+ 
