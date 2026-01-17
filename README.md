@@ -83,60 +83,9 @@ Nota
 2. **Listar materias: Visualización de todas las materias disponibles.**
    
    URL: http://localhost:8080/materias
+   
    Metodo: GET
-   
-   Body Response:
-   
-   ```JSON
-  {
-    "status": 200,
-    "message": "Operación exitosa",
-    "data": {
-        "content": [
-            {
-                "codigo": "05",
-                "creditos": 2,
-                "id": 1,
-                "nombre": "Fisica",
-                "notas": []
-            },
-            {
-                "codigo": "01",
-                "creditos": 3,
-                "id": 2,
-                "nombre": "Matematicas",
-                "notas": []
-            }
-        ],
-        "empty": false,
-        "first": true,
-        "last": true,
-        "number": 0,
-        "numberOfElements": 2,
-        "pageable": {
-            "offset": 0,
-            "pageNumber": 0,
-            "pageSize": 10,
-            "paged": true,
-            "sort": {
-                "empty": false,
-                "sorted": true,
-                "unsorted": false
-            },
-            "unpaged": false
-        },
-        "size": 10,
-        "sort": {
-            "empty": false,
-            "sorted": true,
-            "unsorted": false
-        },
-        "totalElements": 2,
-        "totalPages": 1
-    }
-}
-```
-
+     
 
 <img width="1274" height="571" alt="image" src="https://github.com/user-attachments/assets/01648814-8e7d-46fb-bc3d-0cb49aa6ac2b" />
 
