@@ -68,22 +68,12 @@ Nota
 
 ## pruebas Enpoints:
 
-### Crear una materia: Alta de nuevas asignaturas en el catálogo.
-
-1. **Clonar el repositorio:**
+1. **Crear una materia: Alta de nuevas asignaturas en el catálogo.**
    ```JSON
    {"codigo": "05",
     "creditos": 2,
     "nombre": "Fisica"
    }
-
-
- 
-
-
-
-
-
 
 
 ## Variables de Entorno Requeridas
