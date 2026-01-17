@@ -4,13 +4,15 @@ PRUEBA: TECNICA-FULL-STACK
 
 DESARROLLADA POR: BRAYAN DAVID BANGUERA ALEGRIA.
 
-API REST para gestión de Alumnos, Materias y Notas con Spring Boot, PostgreSQL y la parte de Frontend ha sido desarrollado con React. Del lado del Backend la apliacion cuenta con una arquitectura orientada a Servicios en tres capas.
+API REST para gestión de Alumnos, Materias y Notas con Spring Boot, PostgreSQL y la parte de Frontend ha sido desarrollado con React. Del lado del Backend la apliación cuenta con una arquitectura orientada a Servicios en tres capas.
 
 ## Modelo Entidad Relación.
-Para la base de datos de acuerdo al analisis que se hizo del requrimiento se realizo el siguiente modelo entidad relación.
+Para la base de datos de acuerdo al análisis que se hizo del requrimiento se realizo el siguiente modelo entidad relación (MER).
 
 <img width="598" height="386" alt="image" src="https://github.com/user-attachments/assets/5ab75a0c-f768-4be0-8d4a-b676ee7d7beb" />
 
+
+## El proyecto proporcia los siguien Enpoind:.
 
 
 ## Variables de Entorno Requeridas
