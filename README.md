@@ -136,6 +136,8 @@ Nota
     }
 }
 
+
+
 <img width="1274" height="571" alt="image" src="https://github.com/user-attachments/assets/01648814-8e7d-46fb-bc3d-0cb49aa6ac2b" />
 
 
@@ -149,7 +151,11 @@ Nota
     "nombre": "Fisica"
    }
 
+
+
 <img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
+
+
 
 4. **Actualizar materia: Edición de nombre o detalles de la asignatura.**
    
@@ -160,6 +166,8 @@ Nota
     "creditos": 2,
     "nombre": "Fisica"
    }
+
+
 
 <img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
@@ -174,6 +182,8 @@ Nota
     "creditos": 2,
     "nombre": "Fisica"
    }
+
+
 
 <img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
