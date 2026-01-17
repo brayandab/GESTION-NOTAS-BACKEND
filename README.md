@@ -211,10 +211,12 @@ Para ejecutar la aplicación, configura las siguientes variables de entorno:
    • Backend: https://github.com/brayandab/GESTION-NOTAS-BACKEND
    
    ```bash
-   git clone <url-del-repositorio>
-   cd gestion-notas
+   git clone https://github.com/brayandab/GESTION-NOTAS-BACKEND
+   cd GESTION-NOTAS-BACKEND
 
-2. **Clonar el repositorio Descritos anteriormente:**
+2. **Camandos para desplegar en docker mediante compose.**
+   ```bash
+     docker-compose up --build
 
 
 
