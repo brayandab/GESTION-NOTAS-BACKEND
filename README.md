@@ -68,12 +68,16 @@ Nota
 
 ## Pruebas de los Enpoint.
 
- •	Crear una materia: Alta de nuevas asignaturas en el catálogo.
-  ```bash
+#### **Crear una materia: Alta de nuevas asignaturas en el catálogo.**
+JSON
    {"codigo": "05",
     "creditos": 2,
     "nombre": "Fisica"
    }
+
+``` 
+ 
+
 
 
 
