@@ -71,6 +71,7 @@ Nota
 1. **Crear una materia: Alta de nuevas asignaturas en el catálogo.**
    
    URL: http://localhost:8080/materias
+   Metodo: POST
    
    ```JSON
    {"codigo": "05",
@@ -79,6 +80,106 @@ Nota
    }
 
 <img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
+2. **Listar materias: Visualización de todas las materias disponibles.**
+   
+   URL: http://localhost:8080/materias
+   Metodo: GET
+   
+   Body Response:
+   
+   ```JSON
+  {
+    "status": 200,
+    "message": "Operación exitosa",
+    "data": {
+        "content": [
+            {
+                "codigo": "05",
+                "creditos": 2,
+                "id": 1,
+                "nombre": "Fisica",
+                "notas": []
+            },
+            {
+                "codigo": "01",
+                "creditos": 3,
+                "id": 2,
+                "nombre": "Matematicas",
+                "notas": []
+            }
+        ],
+        "empty": false,
+        "first": true,
+        "last": true,
+        "number": 0,
+        "numberOfElements": 2,
+        "pageable": {
+            "offset": 0,
+            "pageNumber": 0,
+            "pageSize": 10,
+            "paged": true,
+            "sort": {
+                "empty": false,
+                "sorted": true,
+                "unsorted": false
+            },
+            "unpaged": false
+        },
+        "size": 10,
+        "sort": {
+            "empty": false,
+            "sorted": true,
+            "unsorted": false
+        },
+        "totalElements": 2,
+        "totalPages": 1
+    }
+}
+
+<img width="1274" height="571" alt="image" src="https://github.com/user-attachments/assets/01648814-8e7d-46fb-bc3d-0cb49aa6ac2b" />
+
+
+3. **Consultar materia por ID: Detalle de una asignatura específica.**
+   
+   URL: http://localhost:8080/materias
+   
+   ```JSON
+   {"codigo": "05",
+    "creditos": 2,
+    "nombre": "Fisica"
+   }
+
+<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
+
+4. **Actualizar materia: Edición de nombre o detalles de la asignatura.**
+   
+   URL: http://localhost:8080/materias
+   
+   ```JSON
+   {"codigo": "05",
+    "creditos": 2,
+    "nombre": "Fisica"
+   }
+
+<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
+
+
+5. **Eliminar materia: Remoción de una asignatura del sistema.**
+   
+   URL: http://localhost:8080/materias/1
+   Metodo: Delete
+   
+   ```JSON
+   {"codigo": "05",
+    "creditos": 2,
+    "nombre": "Fisica"
+   }
+
+<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
+
+
+
+
 
 
 ## Variables de Entorno Requeridas
