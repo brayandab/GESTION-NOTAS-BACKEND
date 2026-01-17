@@ -69,11 +69,16 @@ Nota
 ## pruebas Enpoints:
 
 1. **Crear una materia: Alta de nuevas asignaturas en el catálogo.**
+   
+   URL: http://localhost:8080/materias
+   
    ```JSON
    {"codigo": "05",
     "creditos": 2,
     "nombre": "Fisica"
    }
+
+<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
 
 ## Variables de Entorno Requeridas
