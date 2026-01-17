@@ -12,7 +12,8 @@ Para la base de datos de acuerdo al análisis que se hizo del requrimiento se re
 <img width="598" height="386" alt="image" src="https://github.com/user-attachments/assets/5ab75a0c-f768-4be0-8d4a-b676ee7d7beb" />
 
 
-## El proyecto proporcia los siguien Enpoind:.
+## El proyecto proporcia los siguien Enpoind:
+Alumno • Crear un alumno • Listar todos los alumnos • Consultar un alumno por id • Actualizar un alumno • Eliminar un alumno Materia • Crear una materia • Listar materias • Consultar materia por id • Actualizar materia • Eliminar materia Nota • Registrar una nota para un alumno en una materia • Listar notas por alumno en cada materia 
 
 
 ## Variables de Entorno Requeridas
