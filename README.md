@@ -51,6 +51,13 @@ Nota
       • Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
 
 
+## Documentacion con OpenApi y Pruebas de los Enpoint.
+•  Materia
+<img width="1333" height="518" alt="image" src="https://github.com/user-attachments/assets/cc4a8fcc-e9ce-4ac1-820e-4f2f400fed23" />
+
+
+
+
 ## Variables de Entorno Requeridas
 
 Para ejecutar la aplicación, configura las siguientes variables de entorno:
