@@ -66,14 +66,16 @@ Nota
 <img width="1316" height="206" alt="image" src="https://github.com/user-attachments/assets/4d5e7f3a-74e5-4d4d-ac1f-d3158390afc9" />
 
 
-## Instrucciones de Ejecución (Máximo 10 comandos)
+## pruebas Enpoints:
 
-### Opción 1: Usando Docker Compose (Recomendado)
+### Crear una materia: Alta de nuevas asignaturas en el catálogo.
 
 1. **Clonar el repositorio:**
-   ```bash
-   git clone <url-del-repositorio>
-   cd gestion-notas
+   ```JSON
+   {"codigo": "05",
+    "creditos": 2,
+    "nombre": "Fisica"
+   }
 
 
  
