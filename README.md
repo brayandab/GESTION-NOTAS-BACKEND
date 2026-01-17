@@ -92,33 +92,17 @@ Nota
 
 3. **Consultar materia por ID: Detalle de una asignatura específica.**
    
-   URL: http://localhost:8080/materias
+   URL: http://localhost:8080/materias/1
    
-   ```JSON
-   {"codigo": "05",
-    "creditos": 2,
-    "nombre": "Fisica"
-   }
+   <img width="1297" height="469" alt="image" src="https://github.com/user-attachments/assets/c2f38f59-ca9e-4899-a816-690a758d416f" />
 
-
-
-<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
 
 
 4. **Actualizar materia: Edición de nombre o detalles de la asignatura.**
    
-   URL: http://localhost:8080/materias
-   
-   ```JSON
-   {"codigo": "05",
-    "creditos": 2,
-    "nombre": "Fisica"
-   }
+  <img width="917" height="506" alt="image" src="https://github.com/user-attachments/assets/625d9242-060b-46b5-aa29-9b7a5acec39d" />
 
-
-
-<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
 
 5. **Eliminar materia: Remoción de una asignatura del sistema.**
@@ -126,11 +110,8 @@ Nota
    URL: http://localhost:8080/materias/1
    Metodo: Delete
    
-   
+   <img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/de8400f9-7859-45a7-a158-a64e64cc1a97" />
 
-
-
-<img width="1286" height="453" alt="image" src="https://github.com/user-attachments/assets/d13e0389-49af-437a-b3b5-0cd468816d13" />
 
 
 
