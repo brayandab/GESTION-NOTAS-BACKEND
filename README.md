@@ -27,6 +27,7 @@ Alumno
       • Eliminar un alumno: Borrar el registro de un estudiante del sistema.
 
 Materia
+      
       • Crear una materia: Alta de nuevas asignaturas en el catálogo.
       
       • Listar materias: Visualización de todas las materias disponibles.
