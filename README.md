@@ -39,6 +39,7 @@ Materia
       • Eliminar materia: Remoción de una asignatura del sistema.
 
 Nota
+     
       • Registrar nota: Asignar una calificación a un alumno en una materia específica.
       
       • Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
