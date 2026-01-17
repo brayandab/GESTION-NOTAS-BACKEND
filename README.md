@@ -13,7 +13,21 @@ Para la base de datos de acuerdo al análisis que se hizo del requrimiento se re
 
 
 ## El proyecto proporcia los siguien Enpoind:
-Alumno • Crear un alumno • Listar todos los alumnos • Consultar un alumno por id • Actualizar un alumno • Eliminar un alumno Materia • Crear una materia • Listar materias • Consultar materia por id • Actualizar materia • Eliminar materia Nota • Registrar una nota para un alumno en una materia • Listar notas por alumno en cada materia 
+Alumno 
+• Crear un alumno 
+• Listar todos los alumnos 
+• Consultar un alumno por id 
+• Actualizar un alumno 
+• Eliminar un alumno 
+Materia 
+• Crear una materia 
+• Listar materias 
+• Consultar materia por id
+• Actualizar materia 
+• Eliminar materia 
+Nota 
+• Registrar una nota para un alumno en una materia 
+• Listar notas por alumno en cada materia 
 
 
 ## Variables de Entorno Requeridas
