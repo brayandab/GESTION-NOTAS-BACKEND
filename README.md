@@ -6,9 +6,11 @@ DESARROLLADA POR: BRAYAN DAVID BANGUERA ALEGRIA.
 
 API REST para gestión de Alumnos, Materias y Notas con Spring Boot, PostgreSQL y la parte de Frontend ha sido desarrollado con React. Del lado del Backend la apliación cuenta con una arquitectura orientada a Servicios en tres capas.
 
-## Repositorios 
-   Backend: https://github.com/brayandab/GESTION-NOTAS-BACKEND
-   Frontend: 
+## Repositorios
+
+   • Backend: https://github.com/brayandab/GESTION-NOTAS-BACKEND
+   
+   • Frontend: https://github.com/brayandab/GESTION-NOTAS-FRONTEND
 
 ## Modelo Entidad Relación.
 Para la base de datos de acuerdo al análisis que se hizo del requrimiento se realizo el siguiente modelo entidad relación (MER).
