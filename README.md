@@ -217,9 +217,10 @@ Para ejecutar la aplicación, configura las siguientes variables de entorno:
 2. **Camandos para desplegar en docker mediante compose.(asegurarse de esta en la carpeta del proyecto clonado anteriormete.)**
    ```bash
      docker-compose up --build
-```
 
-<img width="1336" height="665" alt="image" src="https://github.com/user-attachments/assets/d6f7235a-d997-4916-8b37-9070e698f853" />
+
+<img width="1336" height="665" alt="image" src="https://github.com/user-attachments/assets/32f90bab-5c9d-4f42-9f23-d9fc28c061c4" />
+
 
 
 
