@@ -7,6 +7,9 @@ API REST para gestión de notas con Spring Boot  y PostgreSQL.
 
 ## Modelo Entidad Relación.
 
+<img width="598" height="386" alt="image" src="https://github.com/user-attachments/assets/5ab75a0c-f768-4be0-8d4a-b676ee7d7beb" />
+
+
 
 ## Variables de Entorno Requeridas
 
