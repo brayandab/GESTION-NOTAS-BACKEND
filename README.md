@@ -15,32 +15,32 @@ Para la base de datos de acuerdo al análisis que se hizo del requrimiento se re
 ## El proyecto proporcia los siguien Enpoind:
 Alumno
 
-•	Crear una materia: Alta de nuevas asignaturas en el catálogo.
-
-
-• Listar todos los alumnos: Consulta general de la base de datos de estudiantes.
-
-• Consultar un alumno por ID: Obtener información detallada de un estudiante específico.
-
-• Actualizar un alumno: Modificar datos existentes de un estudiante.
-
-• Eliminar un alumno: Borrar el registro de un estudiante del sistema.
+      •	Crear una materia: Alta de nuevas asignaturas en el catálogo.
+      
+      
+      • Listar todos los alumnos: Consulta general de la base de datos de estudiantes.
+      
+      • Consultar un alumno por ID: Obtener información detallada de un estudiante específico.
+      
+      • Actualizar un alumno: Modificar datos existentes de un estudiante.
+      
+      • Eliminar un alumno: Borrar el registro de un estudiante del sistema.
 
 Materia
-• Crear una materia: Alta de nuevas asignaturas en el catálogo.
-
-• Listar materias: Visualización de todas las materias disponibles.
-
-• Consultar materia por ID: Detalle de una asignatura específica.
-
-• Actualizar materia: Edición de nombre o detalles de la asignatura.
-
-• Eliminar materia: Remoción de una asignatura del sistema.
+      • Crear una materia: Alta de nuevas asignaturas en el catálogo.
+      
+      • Listar materias: Visualización de todas las materias disponibles.
+      
+      • Consultar materia por ID: Detalle de una asignatura específica.
+      
+      • Actualizar materia: Edición de nombre o detalles de la asignatura.
+      
+      • Eliminar materia: Remoción de una asignatura del sistema.
 
 Nota
-• Registrar nota: Asignar una calificación a un alumno en una materia específica.
-
-• Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
+      • Registrar nota: Asignar una calificación a un alumno en una materia específica.
+      
+      • Listar notas por alumno: Consultar el historial de calificaciones de un estudiante desglosado por materia.
 
 
 ## Variables de Entorno Requeridas
